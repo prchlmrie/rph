@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Main Page</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px; /* Space between items */
+            max-width: 800px; /* Adjust width as needed */
+            margin: auto;
+        }
+        
+        /* Style for divs */
+        .container div {
+            width: 30%; /* Adjust width for 3 in a row */
+            min-width: 200px; /* Ensure images don't shrink too much */
+        }
+        
+        /* Style for images */
+        .container img {
+            width: 100%;
+            height: 150px; /* Fixed height for consistency */
+            object-fit: cover; /* Ensures images fill the space properly */
+            border-radius: 5px; /* Optional: rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <h2>Diego Silang's Letter to Britain</h2>
+    <div class="container">
+        <div class="main1">
+            <a href="main1.html"><img src="https://pbs.twimg.com/profile_images/1723212128/pogiako_200x200.jpg" alt="Silang, Diego"></a>
+        </div>
+        <div class="main2">
+            <a href="main2.html"><img src="https://flyingketchup.ph/wp-content/uploads/2024/10/british-780x470.png" alt="BritishxManila"></a>
+        </div>
+        <div class="main3">
+            <a href="main3.html"><img src="https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-person-is-writing-a-letter-on-an-old-piece-of-paper-image_2934071.jpg" alt="Letter"></a>
+        </div>
+        <div class="main4">
+            <a href="main4.html"><img src="https://www.usatoday.com/gcdn/-mm-/f63e962cd627fa2f7998a5c6c73b6a1f60d7181c/c=0-241-1360-2048/local/-/media/USATODAY/USATODAY/2014/09/10/1410356659000-15004041968_3d146c6a65_k.jpg" alt="Black Mail"></a>
+        </div>
+        <div class="main5">
+            <a href="main5.html"><img src="https://i0.wp.com/www.iedunote.com/img/48846/data-analysis-interpretation.jpg?fit=1080%2C720&quality=100&ssl=1" alt="Analysis"></a>
+        </div>
+    </div>
+    <button>Home Page</button>
+    <button onclick="sessionStorage.setItem('directAccess', 'true'); window.location.href='../index.html'">Main Page</button>
+</body>
+
+</html>

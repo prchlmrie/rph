@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippine Revolution - Historical Sources</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <a href="../index.html" class="back-button" onclick="sessionStorage.setItem('directAccess', 'true')">
+        <i class="fas fa-arrow-left"></i>
+        <span>Back to Main</span>
+    </a>
+    <div class="slider__warpper">
+        <div class="flex__container flex--revolution flex--active" data-slide="1">
+            <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                    <p class="text--sub">Historical Overview</p>
+                    <h1 class="text--big">Philippine Revolution</h1>
+                    <p class="text--normal">The Philippine Revolution signaled the end of the long Spanish Era. The revolution started in August 1896, upon the discovery of the Katipunan. The Katipunan was led by Andres Bonifacio.</p>
+                </div>
+                <p class="text__background">1896</p>
+            </div>
+            <div class="flex__item flex__item--right"></div>
+            <img class="history__img" src="images/andresbonifacio.png" />
+        </div>
+        <div class="flex__container flex--kkk animate--start" data-slide="2">
+            <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                    <p class="text--sub">The Secret Society</p>
+                    <h1 class="text--big">KKK</h1>
+                    <p class="text--normal">Kataastaasan, Kagalang-galang na Katipunan ng mga Anak ng Bayan, or Katipunan. Envisioned a united Filipino nation revolting against the Spaniards for the total independence of the country from Spanish.</p>
+                </div>
+                <p class="text__background">Katipunan</p>
+            </div>
+            <div class="flex__item flex__item--right"></div>
+            <img class="history__img" src="images/kkk.png" />
+        </div>
+        <div class="flex__container flex--comparison animate--start" data-slide="3">
+            <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                    <p class="text--sub">Two Paths to Freedom</p>
+                    <h1 class="text--big">Ideologies</h1>
+                    <p class="text--normal">Katipunan sought revolt and total separation from Spain. Meanwhile, the Ilustrados pursued the Propaganda Movement, not envisioning total separation but demanding equal rights, representation, and protection from the abuses of the Friars.</p>
+                </div>
+                <p class="text__background">Paths</p>
+            </div>
+            <div class="flex__item flex__item--right"></div>
+            <img class="history__img" src="images/ilustrados.png" />
+        </div>
+        <div class="flex__container flex--kartilya animate--start" data-slide="4">
+            <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                    <p class="text--sub">Code of the Katipuneros</p>
+                    <h1 class="text--big">Kartilya</h1>
+                    <p class="text--normal">The Kartilya ng Katipunan embodied the values of KKK and serves as the code of Katipuneros. Written by Emilio Jacinto at age 18, it contained rules for personal conduct and treatment of fellow members. Original title: "Manga Aral Nang Katipunan ng mga Anak ng Bayan".</p>
+                </div>
+                <p class="text__background">Values</p>
+            </div>
+            <div class="flex__item flex__item--right"></div>
+            <img class="history__img" src="images/emiliojacinto.png" />
+        </div>
+        <div class="flex__container flex--aguinaldo animate--start" data-slide="5">
+            <div class="flex__item flex__item--left">
+                <div class="flex__content">
+                    <p class="text--sub">Historical Memoir</p>
+                    <h1 class="text--big">Mga Gunita</h1>
+                    <p class="text--normal">Emilio Aguinaldo's memoir "Mga Gunita ng Himagsikan" provides crucial insights into the revolution's leadership transition. Written from 1928 to 1940s, it details the conflicts between Magdalo and Magdiwang chapters, and his differences with Bonifacio.</p>
+                </div>
+                <p class="text__background">Memoir</p>
+            </div>
+            <div class="flex__item flex__item--right"></div>
+            <img class="history__img" src="images/emilioaguinaldo.png" />
+        </div>
+    </div>
+
+    <div class="slider__navi">
+        <a href="#" class="slide-nav active" data-slide="1">revolution</a>
+        <a href="#" class="slide-nav" data-slide="2">kkk</a>
+        <a href="#" class="slide-nav" data-slide="3">comparison</a>
+        <a href="#" class="slide-nav" data-slide="4">kartilya</a>
+        <a href="#" class="slide-nav" data-slide="5">aguinaldo</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
